@@ -1,0 +1,83 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(255, 182, 71);
+    border-bottom: 2px solid black;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: rgb(0, 0, 0);
+}
+
+.section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: bold;
+}
+
+#bolos {
+    color: rgb(255, 182, 71);
+}
+
+#sobre-bm {
+    background-color: rgb(221, 221, 221);
+}
+.nav-catalogo .nav-link.active {
+    background-color: rgb(221, 221, 221);
+    color:  rgb(0, 0, 0);
+}
+
+.nav-catalogo .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.nav-catalogo .nav-link:hover {
+    color: rgb(0, 0, 0);
+}
+
+#catalogo {
+    background-color: rgb(255, 182, 71);
+}
+
+#servicos {
+    background-color: rgb(221, 221, 221);
+}
+
+#contato {
+    background-color: rgb(221, 221, 221);
+}
+
+#rodape {
+    background-color: rgb(255, 182, 71);
+    font-size: bold;
+    color: rgb(0, 0, 0);
+}
+
+.social-links li {
+    display: inline;
+    list-style: none;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+    #contato button {
+        background-color: rgb(255, 182, 71);
+        font-size: bold;
+    }
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
